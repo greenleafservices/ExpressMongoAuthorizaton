@@ -10,8 +10,8 @@ router.get('/profile', mid.requiresLogin, function(req, res, next) {
         if (error) {
           return next(error);
         } else {
-          return res.render('profile', { title: 'Profile', name: user.name, favorite: user.favoriteBook });
-        }
+          return res.render('profile', { title: 'Profilye', name: user.name, favorite: user.favoriteBook });
+        }git s
       });
 });
 
